@@ -1,0 +1,9 @@
+{
+  "appId": "com.solarsaathi.app",
+  "appName": "SolarSaathi",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  }
+}

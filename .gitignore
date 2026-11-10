@@ -1,0 +1,42 @@
+# ===== Secrets (NEVER push) =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+DEMO_ACCOUNT.txt
+
+# ===== Python =====
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ===== Runtime =====
+backend/logs/
+logs/
+*.log
+setup_log.txt
+test_results.txt
+eval_log.txt
+screenshot_log.txt
+
+# ===== Node / Vite / Android =====
+node_modules/
+dist/
+.vite/
+frontend/android/app/build/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/app/src/main/assets/public/
+
+# ===== Editors / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# runtime cache (NASA sunlight)
+backend/data/
+screenshot_problem.png

@@ -1,0 +1,11 @@
+{
+  "name": "SolarSaathi - AI Solar Advisor",
+  "short_name": "SolarSaathi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef3f0",
+  "theme_color": "#10343b",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
